@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: rgba(128, 128, 128, 0.121);
+    width: 400px;
+    height: 207px;
+
+
+}
+.boli{
+    /* border: 2px solid black; */
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.download{
+    /* border: 2px solid black; */
+    display: flex;
+    padding: 15px;
+}
+button#btn3{  
+    background-color: #00b6d1;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 217px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+button#btn6{  
+    background-color: #5cb85c;
+    border: none;
+    height: 50px;
+    width: 217px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
